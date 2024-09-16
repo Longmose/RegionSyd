@@ -17,9 +17,9 @@ namespace RegionSyd.View
     /// <summary>
     /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class AssignmentsView : Window
     {
-        public Window1()
+        public AssignmentsView()
         {
             InitializeComponent();
         }

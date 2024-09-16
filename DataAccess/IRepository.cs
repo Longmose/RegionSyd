@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace RegionSyd.DataAccess
 {
-    interface IRepository
+    public interface IRepository<T>
     {
+        void Add(T obj);
+        void Remove(T obj);
     }
 }

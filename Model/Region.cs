@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace RegionSyd.Model
 {
-    class Region
+    public enum Region
     {
+        Syddanmark = 1,
+        Midtjylland,
+        Nordjylland,
+        Sjælland,
+        Hovadstaden
     }
 }
